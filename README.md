@@ -2,7 +2,7 @@
 This Sample demonstrates how to deploy a solution for automatic isolation of compromised EC2 instances.
 
 ## Solution Overview
-![Alt text](https://d195kho0tyqjph.cloudfront.net/GitHub/EC2-Isolation-Blogpost-Diagram.drawio.png? "Solution Overview")
+![Alt text](https://d195kho0tyqjph.cloudfront.net/GitHub/EC2-Isolation-Blogpost-Diagram.png? "Solution Overview")
 
 The proposal of this solution is to automate your incident responses related to EC2 instances, with the Amazon GuardDuty monitoring, it is going to detect any anomalous or vulnerability in your EC2 instances through the Amazon GuardDuty Findings, the pipeline work this way:
 1. Findings will be the producer of the Incident Response Pipeline
