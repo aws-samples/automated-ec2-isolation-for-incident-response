@@ -45,7 +45,7 @@ cd automated-ec2-isolation-for-incident-response
 3. Connect to your instance from your [Linux or Mac](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html) local machine or [Windows](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-from-windows.html)
 4. [Genereta sample findings to your EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/sample_findings.html#guardduty_findings-scripts)
 
-After this steps, wait around 3 minutes and you can check that your SSH connection to your EC2 has been fineshed and and also the Security Group has changed.
+After these steps, wait around 3 minutes and you can check that your SSH connection to your EC2 has been fineshed and and also the Security Group has changed and isolated the instance.
 
 ## Cleaning Up
 Open your terminal on the root of the clone repository and run this command:
