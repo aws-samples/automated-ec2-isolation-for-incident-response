@@ -34,7 +34,7 @@ Before deploy the application note that Amazon EventBridge is set to trigger AWS
 You can check the Finding types [here](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-active.html)
 
 1.
-<pre><code>git clone https://github.com/henriquelsz/amazon-rekogntion-face-detection-video-stream.git
+<pre><code>git clone https://github.com/aws-samples/automated-ec2-isolation-for-incident-response.git
 cd automated-ec2-isolation-for-incident-response 
 </code></pre>
 2. Run <code>cdk deploy</code> and wait for the deployment to finish successfully;
